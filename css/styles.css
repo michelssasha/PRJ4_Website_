@@ -6,20 +6,61 @@
 
 body {
 	font-family: Raleway, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	box-sizing: border-box;
 	background-color: #fffcf8;
+	margin: 0;
+	overflow-x: hidden;
+	top: 0;
+	left: 0;
 }
 
 /* Changing the background colour for the header */
 
-header {
-	background-color: #000060;
+
+/*navbar adjusments*/
+
+.navbar{
+	background: #FFF;
+	padding: .5rem .5rem;
+	min-height: 12vh;
+}
+.navbar a{
+	float: none;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 10px;
+	width: 300px;
+	font-weight: bold;
+	color: #B21702;
+	text-transform: uppercase;
+	
+}
+.navbar a:hover{
+	color: #FFEBE8;
+	background: #B21702;
+}
+	
+.navbar a.active{
+	color: #FFEBE8;
+	background: #B21702;
+	
 }
 
-/* Changing the background color for the navigation bar */
+	
 
-.navbar {
-	background-color: #fff0e0;
-}
+	
+
+
+
+
+
+
+
+
+
 
 /* Effect on social media buttons */
 
