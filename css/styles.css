@@ -6,15 +6,25 @@
 
 body {
 	font-family: Raleway, sans-serif;
-	font-size: 15px;
-	line-height: 1.5;
-	box-sizing: border-box;
-	background-color: #fffcf8;
-	margin: 0;
-	overflow-x: hidden;
-	top: 0;
-	left: 0;
 }
+
+.h-100{
+	background: url("../images/pexels-andrea-piacquadio-3755440-2.png");
+	width: 100%;
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+
+
+
+
 
 /* Changing the background colour for the header */
 
@@ -22,21 +32,33 @@ body {
 /*navbar adjusments*/
 
 .navbar{
-	background: #FFF;
-	padding: .5rem .5rem;
-	min-height: 12vh;
+	position: fixed;
+	z-index: 9999;
+	top: auto;
+	width: 100%;
+	background-color: white;
+	padding: .1px 55px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
+	
+	
+
 .navbar a{
-	float: none;
-	font-size: 30px;
+	float: right;
+	font-size: 25px;
 	text-align: center;
 	text-decoration: none;
-	padding: 10px 10px;
 	width: 300px;
-	font-weight: bold;
+	font-weight: 500;
+	letter-spacing: 1px;
 	color: #B21702;
 	text-transform: uppercase;
-	
+	padding: 5px 15px;
+	border-radius: 20px;
+	transition: .3s;
+	transition-property: background;
 }
 .navbar a:hover{
 	color: #FFEBE8;
@@ -49,18 +71,216 @@ body {
 	
 }
 
+.navbar .navbar-brand:hover{
+	background: #Fff;
+}
+
+label{
+	display: none;
+}
+
+#check {
+	z-index:3;
+	display: none;
+}
+
+
+/*landing page layout*/
+#landing-p{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background-image: url("../images/pexels-katya-wolf-8729181.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.content{
+	max-width: 1000px;
+	margin: 150px 60px;
+}
+.content .info h2{
+	font-size: 70px;
+	padding-top: 200px; 
+	text-align: left;
+	text-transform: uppercase;
+	color: #9F1200;
+	text-shadow: .1px .1px 8px #f2f2f2;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 90px;
+	margin-bottom: 40px;
+}
+.content .info h2 span{
+	color: white;
+	text-shadow: .1px .1px 8px #9F1200;
+	font-size: 70px;
+	font-weight: 400;
+}
+
+.content .info p{
+	font-size: 16px;
+	max-width: 650;
+	line-height: 27px;	
+	text-shadow: .1px .1px 2px #020202;
+	padding-bottom: 10px;
+	color: white;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.content .info-btn{
+	color: white;
+	background: #9F1200;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 2px;
+	padding: 10px 30px; 
+	border-radius: 7px;
+	transition: .8s;
+	transition-property: background;
 	
+}
+.content .info-btn:hover{
+	background: #930F00
+}
 
+.media-icons{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
 	
+}
 
+.media-icons a{
+	position: relative;
+	color: #FFFFFF;
+	font-size: 75px;
+	text-shadow: 1px 1px 10px #020202;
+}
 
+.media-icons a:not(:last-child){
+	margin-right: 60px;
+}
 
+.media-icons a:hover{
+	transform: scale(1.5);
+	transition: .3s;
+	transition-property: transform;
+}
 
+/*end landing page layout*/
 
+/*upspire & you section*/
 
+.upspire-you h3{
+	text-align: center;
+}
 
+/* responsive nav styles*/
 
+@media(max-width: 1200px){
+	
+	header .navigation{
+		display: none;
+	}
+	
+	label{
+		display: block;
+		font-size: 25px;
+		cursor: pointer;
+		transition: 0.3s;
+		transition-property: color;
+	}
+	
+	label:hover{
+	color: #B21702;
+	}
+	
+	label .close-btn{
+		display: none;		
+	}
+	
+	label .close-btn:hover{
+	opacity: .5;	
+	}
+	
+	#check:checked ~ header .navigation{
+		z-index: 2;
+		position: fixed;
+		background: rgba(114, 14, 0, 0.9);
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	
+	#check:checked ~ header .navigation a{
+		font-weight: 500;
+		margin-right: 0;
+		margin-bottom: 50px;
+		letter-spacing: 2px;
+		color: white;
+	}
+	#check:checked ~ header label .menu-btn{
+		display: none;
+		
+	}
+	#check:checked ~ header label .close-btn{
+		z-index: 2;
+		display: block;
+		position: fixed;
+		color: white;
+	}
+	
+	label .menu-btn{
+		position: absolute;
+	}
+	
+	.content{
+		max-width: 660px;
+	}
+	.content .info h2{
+		font-size: 50px;
+		line-height: 80px;
+	}
+	
+     .content .info h2 span{
+		font-size: 50px;
+	}
+	 .content .info p{
+		font-size: 18px;
+	}
+}
 
+@media (max-width: 560px){
+	
+	.content .info h2{
+		font-size: 30px;
+		line-height: 50px;
+		font-weight: 600;
+	}
+	
+	.content .info h2 span{
+		font-size: 30px;
+		font-weight: 500;
+	}
+	.content .info p{
+		font-size: 14px;
+	}	
+}
+
+/*end responsive nav styles*/
 
 /* Effect on social media buttons */
 
