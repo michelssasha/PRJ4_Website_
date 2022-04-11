@@ -180,7 +180,8 @@ label{
 
 .upspire-you h3{
 	text-align: center;
-	color: #8F1500
+	color: #8F1500;
+	letter-spacing: 5px;
 }
 
 /* responsive nav styles*/
