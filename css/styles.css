@@ -112,7 +112,7 @@ label{
 	margin: 150px 60px;
 }
 .content .info h2{
-	font-size: 70px;
+	font-size: 60px;
 	font-weight: 400;
 	padding-top: 200px; 
 	text-align: left;
@@ -126,7 +126,7 @@ label{
 .content .info h2 span{
 	color: white;
 	text-shadow: .1px .1px 8px #9F1200;
-	font-size: 70px;
+	font-size: 60px;
 	font-weight: 400;
 }
 
@@ -192,6 +192,26 @@ label{
 	color: #8F1500;
 	letter-spacing: 2px;
 }
+
+/* Footer styles */
+
+footer{
+	font-weight: 400;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #B21702;
+}
+footer a:hover {
+	opacity: .5;
+}
+
+footer .list-unstyled a{
+	position: relative;
+	color: #B21702;
+	letter-spacing: 20px;
+	font-size: 40px;
+}
+
 
 /* responsive nav styles*/
 
@@ -262,15 +282,15 @@ label{
 	}
 	
 	.content{
-		max-width: 660px;
+		max-width: 700px;
 	}
 	.content .info h2{
-		font-size: 50px;
+		font-size: 40px;
 		line-height: 80px;
 	}
 	
      .content .info h2 span{
-		font-size: 50px;
+		font-size: 40px;
 	}
 	 .content .info p{
 		font-size: 18px;
@@ -310,6 +330,17 @@ label{
 		position: absolute;
 	}
 	
+	.content .info h2{
+		font-size: 20px;
+		line-height: 50px;
+		font-weight: 600;
+	}
+	
+	.content .info h2 span{
+		font-size: 20px;
+		font-weight: 500;
+	}
+	
 }
 
 @media (max-width: 300px){
@@ -323,21 +354,3 @@ label{
 }
 /*end responsive nav styles*/
 
-/* Effect on social media buttons */
-
-footer{
-	font-weight: 400;
-	font-size: 15px;
-	text-transform: uppercase;
-	color: #B21702;
-}
-footer a:hover {
-	opacity: .5;
-}
-
-footer .list-unstyled a{
-	position: relative;
-	color: #B21702;
-	letter-spacing: 20px;
-	font-size: 40px;
-}
