@@ -230,7 +230,11 @@ label{
 	color: #2B2B2B
 }
 
+/*corporate page*/
 
+.container h2{
+	margin-top: 30px;
+}
 /* Footer styles */
 
 footer{
