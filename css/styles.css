@@ -244,6 +244,18 @@ label{
 
 /*sneakers page*/
 
+.message{
+	margin-top: 80px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #D45800;
+	box-shadow: 0px 0px 5px 2px #595959;
+	font-size: 30px;
+	margin-left: -300px;
+	margin-right: -300px;
+	text-align: center!important;
+	padding: 100px 20px;
+}
 .bd-placeholder-img:hover{
 	transform: scale(1.06);
 	transition: .3s;
