@@ -233,7 +233,23 @@ label{
 /*corporate page*/
 
 .container h2{
-	margin-top: 30px;
+	
+}
+
+.py-2 .fw-light{
+	margin-top: 125px;
+	color: #B21702;
+}
+
+
+/*sneakers page*/
+.fw-light{
+	margin-top: 50px;
+
+}
+
+.showcase .album{
+	background-color: #f2f2f2!important;
 }
 /* Footer styles */
 
@@ -361,6 +377,10 @@ footer .list-unstyled a{
 	.navigation .navbar-nav a{
 		font-size: 30px;
 		line-height: 40px;
+	}
+	
+	.fw-light{
+		margin-top: 70px;
 	}
 		
 }

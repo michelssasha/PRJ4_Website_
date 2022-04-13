@@ -13,114 +13,196 @@
     <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
-    <title>Bootstrap Base Template | Corporate Information</title>
+    <title>Upspire</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   </head>
-  <body>
+  
+	<body class="corporate">
+<section>
+		<input type="checkbox" id="check">
+		<header>
+		<div class="navbar navbar-expand-lg">
+	 		<div class="container-fluid">
+        		<a class="navbar-brand" href="index.html">
+          			<img src="images/upspire-logo.png"  alt="Upspire">
+        		</a>
+		  
+        	<div class="navigation">
+          		<ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+			  
+			  		<li class="nav-item">
+              			<a class="nav-link" aria-current="page" href="index.html">Home</a>
+            		</li>	
+			  
+            		<li class="nav-item">
+              			<a class="nav-link active" href="sneakers.html">Sneakers</a>
+            		</li>
+					<li class="nav-item">
+              			<a class="nav-link" href="mission.html">Mission</a>
+            		</li>
+					<li class="nav-item">
+              			<a class="nav-link" href="corporate.html">Corporate</a>
+            		</li>
+					
+          
+						<li class="nav-account">	
+						<a class="nav-link" href="login.html" >
+							<i class="fa-solid fa-user  justify-content-between align-items-center"></i></a>
+				   		</li>  
+					
+          		</ul>
+					</div>
 
-    <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="images/upspire-logo.png" width="300" alt="Upspire">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="corporate.html">Corporate</a>
-            </li>
-          </ul>
-        </div>
+        	</div>
+			<label for="check">
+			<i class="fas fa-bars menu-btn"></i>
+			<i class="fas fa-times close-btn"></i>		
+		</label>
+	</div>
+			
+	</header>
+  </section>	
+
+   
+
+	<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Our sneakers</h1>
+        <p class="lead text-muted">Buy our sneakers and become part of the community!&nbsp;</p>
+        <p>
+          <a href="#" class="btn btn-primary my-2">الدعوة الرئيسية للعمل</a>
+          <a href="#" class="btn btn-secondary my-2">عمل ثانوي</a>
+        </p>
       </div>
-    </nav>
-    <!-- End of navigation bar -->
+    </div>
+  </section>
 
-    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
-      <h1 class="fw-light">Corporate information</h1>
-    </header>
+<main class="showcase">		
+  <div class="album py-5 bg-light">
+    <div class="container">
 
-    <main class="container py-4">
-      <h2>Marketing</h2>
-      <h4 class="mt-4">Context of campaign and promotional activities</h4>
-      <p>Explain the context of the campaign is (What the campaign is about, what the message is, which promotional activities were executed). In addition, present the objectives as mentioned in the Communication & Media Plan.</p>
-      <p>Explain and justify the chosen channels/platforms used and show there is a solid connection to the objectives established in the Communication & Media Plan.</p>
-      <h4 class="mt-4">Learning Points</h4>
-      <p>Identify and justify your learning point (based on the Communication & Media Plan). What did you learn during the duration of the project concerning the campaign? What worked and what didn’t? What went as expected and what didn’t? What would you do differently? Reflect on the past work and describe what you learned.</p>
-      <h4 class="mt-4">Future Planning</h4>
-      <p>Reflection on what has been done and describe in detail what you would do if the project would continue.</p>
-      <p>Describe in detail your future recommendations if the campaign would be continued.</p>
-      <p>Detail and describe clearly the process of what your would do differently based on you experience on this project related to the marketing assignment.</p>
-      <h4 class="mt-4">Professionalism</h4>
-      <p>Present and organize below all social media/online activities of the campaign. Context and material are according to the brand style, image, and vision. Images on the site are of high-quality, readable, and properly designed.</p>
-      <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-center">
-        <li class="m-2">
-          <a href="#"><!-- Please make a link to your socials instead -->
-            <img alt="Image Placeholder" class="img-thumbnail" src="images/social-media-placeholder.jpg">
-          </a>
-        </li>
-        <li class="m-2">
-          <a href="#"><!-- Please make a link to your socials instead -->
-            <img alt="Image Placeholder" class="img-thumbnail" src="images/social-media-placeholder.jpg">
-          </a>
-        </li>
-        <li class="m-2">
-          <a href="#"><!-- Please make a link to your socials instead -->
-            <img alt="Image Placeholder" class="img-thumbnail" src="images/social-media-placeholder.jpg">
-          </a>
-        </li>
-      </ul>
-    </main>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" src="images/upspire gallery/original sneak.png" alt="Originals" role="img" aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Originals</title><rect width="100%" height="100%" fill="#55595c"/><text class="d-flex justify-content-center" y="50%" fill="#eceeef" dy=".3em">Originals</text>
+
+            <div class="card-body">
+              <p class="card-text">هذه بطاقة أوسع مع نص داعم أدناه كمقدمة طبيعية لمحتوى إضافي. هذا المحتوى أطول قليلاً.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">عرض</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">تعديل</button>
+                </div>
+                <small class="text-muted">9 دقائق</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" src="images/upspire gallery/green sneak 1.png" alt="Originals" role="img" aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Greens</title><rect width="100%" height="100%" fill="#55595c"/><text class="d-flex justify-content-center" y="50%" fill="#eceeef" dy=".3em">Greens</text>
+
+            <div class="card-body">
+              <p class="card-text">هذه بطاقة أوسع مع نص داعم أدناه كمقدمة طبيعية لمحتوى إضافي. هذا المحتوى أطول قليلاً.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">عرض</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">تعديل</button>
+                </div>
+                <small class="text-muted">9 دقائق</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" src="images/upspire gallery/hologram sneak.png" alt="Originals" role="img" aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Holograms</title><rect width="100%" height="100%" fill="#55595c"/><text class="d-flex justify-content-center" y="50%" fill="#eceeef" dy=".3em">Holograms</text>
+
+            <div class="card-body">
+              <p class="card-text">هذه بطاقة أوسع مع نص داعم أدناه كمقدمة طبيعية لمحتوى إضافي. هذا المحتوى أطول قليلاً.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">عرض</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">تعديل</button>
+                </div>
+                <small class="text-muted">9 دقائق</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" src="images/upspire gallery/blue sneak 1.png" alt="Originals" role="img" aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Blues</title><rect width="100%" height="100%" fill="#55595c"/><text class="d-flex justify-content-center" y="50%" fill="#eceeef" dy=".3em">Blues</text>
+
+            <div class="card-body">
+              <p class="card-text">هذه بطاقة أوسع مع نص داعم أدناه كمقدمة طبيعية لمحتوى إضافي. هذا المحتوى أطول قليلاً.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">عرض</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">تعديل</button>
+                </div>
+                <small class="text-muted">9 دقائق</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" src="images/upspire gallery/pink sneak 1.png" alt="Originals" role="img" aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Pinks</title><rect width="100%" height="100%" fill="#55595c"/><text class="d-flex justify-content-center" y="50%" fill="#eceeef" dy=".3em">Pinks</text>
+
+            <div class="card-body">
+              <p class="card-text">هذه بطاقة أوسع مع نص داعم أدناه كمقدمة طبيعية لمحتوى إضافي. هذا المحتوى أطول قليلاً.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">عرض</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">تعديل</button>
+                </div>
+                <small class="text-muted">9 دقائق</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+           <img class="bd-placeholder-img card-img-top" width="100%" src="images/upspire gallery/yellow sneak 1.png" alt="Yellows" role="img" aria-label="Placeholder: صورة مصغرة" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Yellows</title><rect width="100%" height="100%" fill="#55595c"/><text class="d-flex justify-content-center" y="50%" fill="#eceeef" dy=".3em">Yellows</text>
+
+            <div class="card-body">
+              <p class="card-text">هذه بطاقة أوسع مع نص داعم أدناه كمقدمة طبيعية لمحتوى إضافي. هذا المحتوى أطول قليلاً.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">عرض</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">تعديل</button>
+                </div>
+                <small class="text-muted">9 دقائق</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+              </div>
+            </div>
+		</div>
+
+</main>
+
 
     <!-- A footer with socials -->
-    <footer class="sticky-bottom shadow-lg mt-5 py-4 bg-body">
+    <footer class="shadow-lg mt-5 py-4 bg-body">
       <div class="container d-flex justify-content-between align-items-center">
         <p>
-          © 2020&ndash;2021 &mdash; Breda University of Applied Sciences
+          © Upspire 2022
         </p>
         <ul class="list-unstyled d-flex align-items-center opacity-75">
           <li>
-            <a href="https://www.facebook.com/bredauniversityas" target="_blank">
-              <img class="m-2" src="images/facebook.svg" alt="Follow us on" width="26">
-            </a>
+            <a href="https://www.facebook.com/upspire.official"><i class="fa-brands fa-facebook-square w"></i></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/school/bredauniversityas/" target="_blank">
-              <img class="m-2" src="images/linkedin.svg" alt="Follow us on LinkedIn" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/bredauas" target="_blank">
-              <img class="m-2" src="images/twitter.svg" alt="Follow us on Twitter" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/BredaUniversityofAppliedSciences" target="_blank">
-              <img class="m-2" src="images/youtube.svg" alt="Follow us on YouTube" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/bredauniversityas/" target="_blank">
-              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
-            </a>
+            <a href="https://www.instagram.com/upspire.official"><i class="fa-brands fa-instagram"></i></a>
           </li>
         </ul>
       </div>
