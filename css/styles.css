@@ -243,10 +243,56 @@ label{
 
 
 /*sneakers page*/
-.fw-light{
-	margin-top: 50px;
 
+.bd-placeholder-img:hover{
+	transform: scale(1.06);
+	transition: .3s;
+	transition-property: transform;
 }
+.card text{
+	font-family: Arimo, sans-serif;
+	margin: 10px;
+	letter-spacing: 1px;
+	font-weight: thin;
+	
+	 
+}
+
+.card{
+	border-style: solid;
+	border-width: 6px;
+	border-color: #D45800;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+.outer{
+	border-style: solid;
+	border-width: 60px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-color: #D45800;
+}
+.fw-light{ 
+	margin-top: 80px;
+	margin-bottom: -10px;
+	font-family: Arimo, sans-serif;
+	text-transform: uppercase;
+	font-size: 50px;
+	letter-spacing: 4px;
+	font-weight: 600 !important; 
+	color: #D45800;
+}
+
+.lead{
+	font-family: Montserrat, sans-serif;
+	margin-top: 10px;
+	font-style: italic;
+	font-weight: 300;
+}
+
+
 
 .showcase .album{
 	background-color: #f2f2f2!important;
