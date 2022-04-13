@@ -252,8 +252,9 @@ label{
 .card text{
 	font-family: Arimo, sans-serif;
 	margin: 10px;
-	letter-spacing: 1px;
+	letter-spacing: 3px;
 	font-weight: thin;
+	color: #4F4F4F;
 	
 	 
 }
