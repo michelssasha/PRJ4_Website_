@@ -227,6 +227,20 @@ label{
 	margin-left: 1em;
 }
 
+.list-details li{
+	margin-left: .1em;
+	margin-bottom: 20px;
+	
+}
+
+table {
+	font-size: 12px;
+}
+
+.list-details .table{
+	margin-top: 20px;
+	font-weight: 500;
+}
 p span{
 	font-weight: 500;
 }
@@ -681,6 +695,10 @@ header .fw-light{
 		margin-left: auto; 
 	}
 	
+	table {
+	font-size: 10px;
+}
+
 	
 }
 /*end responsive nav styles*/
