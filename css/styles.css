@@ -232,13 +232,44 @@ label{
 
 /*corporate page*/
 
-.container h2{
-	
-}
 
 .py-2 .fw-light{
 	margin-top: 125px;
 	color: #B21702;
+}
+
+.list-details li::before, .skill-list li::before {
+	content: "-";
+	font-weight: 800;
+	display: inline-block;
+	width: 1em;
+	margin-left: 1em;
+}
+
+p span{
+	font-weight: 500;
+}
+
+.italic{
+	font-style: italic;
+	font-weight: 500;
+}
+
+li span{
+	font-weight: 500;
+}
+
+.justification{
+	margin-left: 1em;
+}
+
+.space{
+	margin-bottom: 10px;
+}
+
+.post-show{
+	margin-top: 50px;
+	margin-bottom: 20px;
 }
 
 
