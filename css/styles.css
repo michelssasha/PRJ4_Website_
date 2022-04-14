@@ -234,7 +234,7 @@ label{
 
 
 .py-2 .fw-light{
-	margin-top: 125px;
+	margin-top: 150px;
 	color: #B21702;
 }
 
@@ -272,6 +272,14 @@ li span{
 	margin-bottom: 20px;
 }
 
+.col .m-2 video:hover{
+	opacity: .5;
+}
+
+.col .m-2 img:hover{
+	opacity: .5;
+	transition: .3s;
+}
 
 /*sneakers page*/
 
@@ -472,7 +480,22 @@ footer .list-unstyled a{
 	.fw-light{
 		margin-top: 70px;
 	}
-		
+	
+.container p{
+		font-size: 14px;
+	}
+	
+header .fw-light{
+		font-size: 35px !important;
+	}	
+	
+	.container h2{
+		font-size: 25px;
+	}	
+	
+.container h4{
+		font-size: 20px;
+	}		
 }
 
 @media (max-width: 560px){
@@ -500,7 +523,31 @@ footer .list-unstyled a{
 		line-height: 20px;
 	}
 	
+	.container p{
+		font-size: 12px;
+	}
+    .space{
+		font-size: 12px;
+	}
+    header .fw-light{
+		font-size: 25px !important;
+	}	
+	
+	.container h2{
+		font-size: 18px;
+	}	
+	
+   	.container h4{
+		font-size: 16px;
+	}
+	
+	.container h5{
+		font-size: 14px;
+	}
 }
+	.container .list-details li{
+		font-size: 12px;
+	}
 
 @media (max-width: 466px){
 	
@@ -541,3 +588,4 @@ footer .list-unstyled a{
 }
 /*end responsive nav styles*/
 
+}
